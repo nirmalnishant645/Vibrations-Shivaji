@@ -501,6 +501,7 @@ section
 }
 .home_content
 {
+	margin-top: 20px;
 }
 .home_date
 {
@@ -513,7 +514,6 @@ section
 {
 	font-size: 100px;
 	font-weight: 500;
-	color: #FFFFFF;
 	margin-top: -5px;
 	line-height: 1.2;
 	font-family: HoneyScript-SemiBold;
