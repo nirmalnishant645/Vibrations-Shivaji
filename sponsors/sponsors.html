@@ -17,6 +17,25 @@
 
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+<link rel="stylesheet" type="text/css" href="styles/societies.css">
+
+<link rel="stylesheet" type="text/css" href="styles/societies_responsive.css">
+
+
 
 <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
 
@@ -26,7 +45,6 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    overflow: hidden;
     margin: 0;
     padding: 0;
 
@@ -62,9 +80,6 @@ li {
 
 }
     .nav-icon{
-      top: 10%;
-      left: 90%;
-
     }
 .main-title {
     font-size: 24px;
@@ -302,7 +317,7 @@ header {
     padding: 30px;
     top: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
 }
 
 
@@ -333,12 +348,12 @@ header {
 }
 
 .nav-icon span:nth-child(2) {
-    top: 6px;
+    top: 7px;
     transform-origin: left center;
 }
 
 .nav-icon span:nth-child(3) {
-    top: 12px;
+    top: 14px;
     transform-origin: left center;
     width: 60%;
     right: 0 !important;
@@ -348,6 +363,52 @@ header {
     width: 100%;
 }
 
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
@@ -358,36 +419,23 @@ header {
 <body>
 
 
-<header>
-	<div class="nav-icon float-right">
-		<span></span>
-		<span></span>
-		<span></span>
-	</div>
-</header>
-
-<div class="container">
-  <span class="text1">Vibrations '19</span><hr>
-  <span class="text2">The annual fest of Shivaji College</span><br>
-  <span class="text2">Sponsors To Be Accounced Soon</span>
-</div>
 
 
 <!-- Full Menu -->
 <div class="full-menu">
 	<div class="fullmenu-content">
 		<ul class="page-menu">
-			<li><a class="active" href="../index.html">Home</a></li>
+      <li><a class="active" href="../index.html">Home</a></li>
 			<li><a href="../about/about.html">About Us</a></li>
 			<li><a href="../events/events.html">Events</a></li>
 			<li><a href="../societies/societies.html">Societies</a></li>
 			<li><a href="sponsors.html">Sponsors</li>
       <li><a href="../register/register.html">Register</a><li>
         <li class="social">
-          <a href="https://www.facebook.com/anchorageshivaji"><img src="icons/social/facebook.svg" alt=""></a>
-          <a href="https://www.instagram.com/shivaji_cultural/"><img src="icons/social/instagram.svg" alt=""></a>
-          <a href="mailto:team@vibrationshivaji.com"><img src="icons/social/send.svg" alt=""></a>
-        </li>
+  				<a href="https://www.facebook.com/anchorageshivaji"><img src="icons/social/facebook.svg" alt=""></a>
+  				<a href="https://www.instagram.com/shivaji_cultural/"><img src="icons/social/instagram.svg" alt=""></a>
+  				<a href="mailto:team@vibrationshivaji.com"><img src="icons/social/send.svg" alt=""></a>
+  			</li>
 		</ul>
 	</div>
 	<a href="#0" class="modal-close">Close</a>
@@ -395,6 +443,119 @@ header {
 <div class="cd-transition-layer visible opening">
 	<div class="bg-layer"></div>
 </div><!-- Ink Transition -->
+
+<!--Start-->
+
+<div class="super_container">
+
+  <header style="background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));">
+    <div class="nav-icon float-right">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+
+	<!-- Home -->
+
+	<div class="home">
+		<!-- <div class="home_background" style="background-image: url(images/index.jpg)"></div> -->
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/index.jpg" data-speed="0.8"></div>
+
+
+
+
+    <div class="home_content_container">
+
+
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content" style="z-index:2;">
+							<div class="home_date">February 20-21, 2019</div>
+							<div class="home_title">Vibrations '19</div>
+							<div class="home_location">The annual cultural fest of Shivaji College</div>
+							<div class="home_text">Sponosors</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Intro -->
+
+	<div class="intro">
+		<div class="intro_content d-flex flex-row flex-wrap align-items-start justify-content-between">
+
+      <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="CBI.png">
+      <img src="images/CBI.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/Coke.png" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/dub.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/duv.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/tcm.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+
+		</div>
+	</div>
+
+	<div class="cta">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta_1.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="cta_content text-center">
+						<div class="cta_title">Register now!</div>
+						<div class="button cta_button"><a href="../register/register.html">Register</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<!--End-->
 
 <div class="wrapper">
 
@@ -593,42 +754,25 @@ smokeeffect()
     </div>
 
 
-    <script>
-    // Set the date we're counting down to
-    var countDownDate = new Date("Feb 20, 2019 10:00:00").getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-
-      // Get todays date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now and the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Output the result in an element with id="demo"
-      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
-
-      // If the count down is over, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "We Are Live!";
-      }
-    }, 1000);
-    </script>
-
     <script src="js/jquery.js"></script>
 
     <script src="js/bootstrap/bootstrap.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <script src="styles/bootstrap4/popper.js"></script>
+
+    <script src="styles/bootstrap4/bootstrap.min.js"></script>
+
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+
+    <script src="plugins/easing/easing.js"></script>
+
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+
+    <script src="js/custom.js"></script>
 
     </body>
 </html>
