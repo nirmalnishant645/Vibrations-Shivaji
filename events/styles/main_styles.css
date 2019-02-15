@@ -269,10 +269,10 @@ section
 	width: 200%;
 	height: 100%;
 	content: '';
-	background-color: #660066;
-	background-image: linear-gradient(to right, #660066, #ff0066, #660066);
-	background: #660066;
-	background: linear-gradient(to right, #660066, #ff0066, #660066);
+	background-color: #BF0000;
+	background-image: linear-gradient(to right, #BF0000, #400000, #BF0000);
+	background: #BF0000;
+	background: linear-gradient(to right, #BF0000, #400000, #BF0000);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -303,10 +303,10 @@ section
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background-color: #660066;
-	background-image: linear-gradient(to right, #660066, #ff0066);
-	background: #660066;
-	background: linear-gradient(to right, #660066, #ff0066);
+	background-color: #BF0000;
+	background-image: linear-gradient(to right, #BF0000, #400000);
+	background: #BF0000;
+	background: linear-gradient(to right, #BF0000, #400000);
 	z-index: 101;
 	opacity: 0;
 	visibility: hidden;
@@ -695,10 +695,10 @@ section
 	width: 100%;
 	height: 100%;
 	content: '';
-	background-color: #660066;
-	background-image: linear-gradient(to right, #660066, #ff0066);
-	background: #660066;
-	background: linear-gradient(to right, #660066, #ff0066);
+	background-color: #BF0000;
+	background-image: linear-gradient(to right, #BF0000, #400000);
+	background: #BF0000;
+	background: linear-gradient(to right, #BF0000, #400000);
 	opacity: 0;
 	z-index: 0;
 	-webkit-transition: all 200ms ease;
@@ -845,10 +845,10 @@ section
 	width: 100%;
 	height: 100%;
 	content: '';
-	background-color: #660066;
-	background-image: linear-gradient(to right, #660066, #ff0066);
-	background: #660066;
-	background: linear-gradient(to right, #660066, #ff0066);
+	background-color: #BF0000;
+	background-image: linear-gradient(to right, #BF0000, #400000);
+	background: #BF0000;
+	background: linear-gradient(to right, #BF0000, #400000);
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -939,10 +939,10 @@ section
 	left: 0;
 	width: 100%;
 	height: 4px;
-	background-color: #660066;
-	background-image: linear-gradient(to right, #660066, #ff0066);
-	background: #660066;
-	background: linear-gradient(to right, #660066, #ff0066);
+	background-color: #BF0000;
+	background-image: linear-gradient(to right, #BF0000, #400000);
+	background: #BF0000;
+	background: linear-gradient(to right, #BF0000, #400000);
 	content: '';
 }
 .pricing_item_mid::after
@@ -1078,10 +1078,10 @@ section
 	width: 100%;
 	height: 68px;
 	padding-left: 26px;
-	background-color: #660066;
-	background-image: linear-gradient(to right, #660066, #ff0066);
-	background: #660066;
-	background: linear-gradient(to right, #660066, #ff0066);
+	background-color: #BF0000;
+	background-image: linear-gradient(to right, #BF0000, #400000);
+	background: #BF0000;
+	background: linear-gradient(to right, #BF0000, #400000);
 }
 .calendar_icon
 {
