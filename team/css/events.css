@@ -120,7 +120,7 @@ p a:hover::after
 }
 p::selection
 {
-
+	
 }
 h1{font-size: 48px;}
 h2{font-size: 36px;}
@@ -134,14 +134,14 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection,
-h2::selection,
-h3::selection,
-h4::selection,
-h5::selection,
+h1::selection, 
+h2::selection, 
+h3::selection, 
+h4::selection, 
+h5::selection, 
 h6::selection
 {
-
+	
 }
 .form-control
 {
@@ -283,10 +283,10 @@ section
 	width: 200%;
 	height: 100%;
 	content: '';
-	background-color: #BF0000;
-	background-image: linear-gradient(to right, #BF0000, #400000, #BF0000);
-	background: #BF0000;
-	background: linear-gradient(to right, #BF0000, #400000, #BF0000);
+	background-color: #4867c0;
+	background-image: linear-gradient(to right, #4867c0, #329fec, #4867c0);
+	background: #4867c0;
+	background: linear-gradient(to right, #4867c0, #329fec, #4867c0);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -385,7 +385,7 @@ section
 }
 .menu_logo a img
 {
-
+	
 }
 .menu_logo .logo_text,
 .menu_logo .logo_sub
@@ -1073,7 +1073,7 @@ section
 .footer
 {
 	width: 100%;
-	background: #0c081d;
+	background: #0c081d;	
 }
 .footer_content
 {
